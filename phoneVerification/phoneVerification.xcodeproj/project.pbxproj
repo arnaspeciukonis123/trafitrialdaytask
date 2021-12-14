@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D96CA3DA27688351005494BB /* phoneVerificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3D927688351005494BB /* phoneVerificationApp.swift */; };
+		D96CA3DC27688351005494BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3DB27688351005494BB /* ContentView.swift */; };
+		D96CA3DE27688352005494BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96CA3DD27688352005494BB /* Assets.xcassets */; };
+		D96CA3E127688352005494BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96CA3E027688352005494BB /* Preview Assets.xcassets */; };
+		D96CA3EB27688352005494BB /* phoneVerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3EA27688352005494BB /* phoneVerificationTests.swift */; };
+		D96CA3F527688352005494BB /* phoneVerificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3F427688352005494BB /* phoneVerificationUITests.swift */; };
+		D96CA3F727688352005494BB /* phoneVerificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3F627688352005494BB /* phoneVerificationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96CA3E727688352005494BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96CA3CE27688351005494BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96CA3D527688351005494BB;
+			remoteInfo = phoneVerification;
+		};
+		D96CA3F127688352005494BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96CA3CE27688351005494BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96CA3D527688351005494BB;
+			remoteInfo = phoneVerification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D96CA3D627688351005494BB /* phoneVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phoneVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96CA3D927688351005494BB /* phoneVerificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerificationApp.swift; sourceTree = "<group>"; };
+		D96CA3DB27688351005494BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D96CA3DD27688352005494BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D96CA3E027688352005494BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D96CA3E627688352005494BB /* phoneVerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phoneVerificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96CA3EA27688352005494BB /* phoneVerificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerificationTests.swift; sourceTree = "<group>"; };
+		D96CA3F027688352005494BB /* phoneVerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phoneVerificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96CA3F427688352005494BB /* phoneVerificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerificationUITests.swift; sourceTree = "<group>"; };
+		D96CA3F627688352005494BB /* phoneVerificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D96CA3D327688351005494BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA3E327688352005494BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA3ED27688352005494BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D96CA3CD27688351005494BB = {
+			isa = PBXGroup;
+			children = (
+				D96CA3D827688351005494BB /* phoneVerification */,
+				D96CA3E927688352005494BB /* phoneVerificationTests */,
+				D96CA3F327688352005494BB /* phoneVerificationUITests */,
+				D96CA3D727688351005494BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D96CA3D727688351005494BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA3D627688351005494BB /* phoneVerification.app */,
+				D96CA3E627688352005494BB /* phoneVerificationTests.xctest */,
+				D96CA3F027688352005494BB /* phoneVerificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96CA3D827688351005494BB /* phoneVerification */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA3D927688351005494BB /* phoneVerificationApp.swift */,
+				D96CA3DB27688351005494BB /* ContentView.swift */,
+				D96CA3DD27688352005494BB /* Assets.xcassets */,
+				D96CA3DF27688352005494BB /* Preview Content */,
+			);
+			path = phoneVerification;
+			sourceTree = "<group>";
+		};
+		D96CA3DF27688352005494BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA3E027688352005494BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D96CA3E927688352005494BB /* phoneVerificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA3EA27688352005494BB /* phoneVerificationTests.swift */,
+			);
+			path = phoneVerificationTests;
+			sourceTree = "<group>";
+		};
+		D96CA3F327688352005494BB /* phoneVerificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA3F427688352005494BB /* phoneVerificationUITests.swift */,
+				D96CA3F627688352005494BB /* phoneVerificationUITestsLaunchTests.swift */,
+			);
+			path = phoneVerificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D96CA3D527688351005494BB /* phoneVerification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96CA3FA27688352005494BB /* Build configuration list for PBXNativeTarget "phoneVerification" */;
+			buildPhases = (
+				D96CA3D227688351005494BB /* Sources */,
+				D96CA3D327688351005494BB /* Frameworks */,
+				D96CA3D427688351005494BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phoneVerification;
+			productName = phoneVerification;
+			productReference = D96CA3D627688351005494BB /* phoneVerification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D96CA3E527688352005494BB /* phoneVerificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96CA3FD27688352005494BB /* Build configuration list for PBXNativeTarget "phoneVerificationTests" */;
+			buildPhases = (
+				D96CA3E227688352005494BB /* Sources */,
+				D96CA3E327688352005494BB /* Frameworks */,
+				D96CA3E427688352005494BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96CA3E827688352005494BB /* PBXTargetDependency */,
+			);
+			name = phoneVerificationTests;
+			productName = phoneVerificationTests;
+			productReference = D96CA3E627688352005494BB /* phoneVerificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D96CA3EF27688352005494BB /* phoneVerificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96CA40027688352005494BB /* Build configuration list for PBXNativeTarget "phoneVerificationUITests" */;
+			buildPhases = (
+				D96CA3EC27688352005494BB /* Sources */,
+				D96CA3ED27688352005494BB /* Frameworks */,
+				D96CA3EE27688352005494BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96CA3F227688352005494BB /* PBXTargetDependency */,
+			);
+			name = phoneVerificationUITests;
+			productName = phoneVerificationUITests;
+			productReference = D96CA3F027688352005494BB /* phoneVerificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D96CA3CE27688351005494BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D96CA3D527688351005494BB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D96CA3E527688352005494BB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D96CA3D527688351005494BB;
+					};
+					D96CA3EF27688352005494BB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D96CA3D527688351005494BB;
+					};
+				};
+			};
+			buildConfigurationList = D96CA3D127688351005494BB /* Build configuration list for PBXProject "phoneVerification" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96CA3CD27688351005494BB;
+			productRefGroup = D96CA3D727688351005494BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D96CA3D527688351005494BB /* phoneVerification */,
+				D96CA3E527688352005494BB /* phoneVerificationTests */,
+				D96CA3EF27688352005494BB /* phoneVerificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D96CA3D427688351005494BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96CA3E127688352005494BB /* Preview Assets.xcassets in Resources */,
+				D96CA3DE27688352005494BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA3E427688352005494BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA3EE27688352005494BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D96CA3D227688351005494BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96CA3DC27688351005494BB /* ContentView.swift in Sources */,
+				D96CA3DA27688351005494BB /* phoneVerificationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA3E227688352005494BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96CA3EB27688352005494BB /* phoneVerificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA3EC27688352005494BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96CA3F727688352005494BB /* phoneVerificationUITestsLaunchTests.swift in Sources */,
+				D96CA3F527688352005494BB /* phoneVerificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D96CA3E827688352005494BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96CA3D527688351005494BB /* phoneVerification */;
+			targetProxy = D96CA3E727688352005494BB /* PBXContainerItemProxy */;
+		};
+		D96CA3F227688352005494BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96CA3D527688351005494BB /* phoneVerification */;
+			targetProxy = D96CA3F127688352005494BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D96CA3F827688352005494BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D96CA3F927688352005494BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D96CA3FB27688352005494BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"phoneVerification/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-phoneVerification.phoneVerification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96CA3FC27688352005494BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"phoneVerification/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-phoneVerification.phoneVerification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D96CA3FE27688352005494BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-phoneVerification.phoneVerificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phoneVerification.app/phoneVerification";
+			};
+			name = Debug;
+		};
+		D96CA3FF27688352005494BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-phoneVerification.phoneVerificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phoneVerification.app/phoneVerification";
+			};
+			name = Release;
+		};
+		D96CA40127688352005494BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-phoneVerification.phoneVerificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = phoneVerification;
+			};
+			name = Debug;
+		};
+		D96CA40227688352005494BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-phoneVerification.phoneVerificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = phoneVerification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D96CA3D127688351005494BB /* Build configuration list for PBXProject "phoneVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA3F827688352005494BB /* Debug */,
+				D96CA3F927688352005494BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96CA3FA27688352005494BB /* Build configuration list for PBXNativeTarget "phoneVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA3FB27688352005494BB /* Debug */,
+				D96CA3FC27688352005494BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96CA3FD27688352005494BB /* Build configuration list for PBXNativeTarget "phoneVerificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA3FE27688352005494BB /* Debug */,
+				D96CA3FF27688352005494BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96CA40027688352005494BB /* Build configuration list for PBXNativeTarget "phoneVerificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA40127688352005494BB /* Debug */,
+				D96CA40227688352005494BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D96CA3CE27688351005494BB /* Project object */;
+}
