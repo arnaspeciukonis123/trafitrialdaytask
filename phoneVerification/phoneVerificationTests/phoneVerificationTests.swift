@@ -7,6 +7,7 @@
 
 import XCTest
 @testable import phoneVerification
+import ComposableArchitecture
 
 class phoneVerificationTests: XCTestCase {
 

@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct phoneVerificationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView (
+                UpdatePhoneNumberStore: Store(
+                    initialState: MainAppState(),
+                    reducer: mainAppReducer,
+                    environment: MainAppEnviroment(
+                        phoneVerificationClient: PhoneVerificationClient(),
+                        mainQueue: DispatchQueue.main.eraseToAnyScheduler())
+                )
+            )
         }
     }
 }

@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D96CA3DA27688351005494BB /* phoneVerificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3D927688351005494BB /* phoneVerificationApp.swift */; };
-		D96CA3DC27688351005494BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3DB27688351005494BB /* ContentView.swift */; };
+		D96CA3DC27688351005494BB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3DB27688351005494BB /* RootView.swift */; };
 		D96CA3DE27688352005494BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96CA3DD27688352005494BB /* Assets.xcassets */; };
 		D96CA3E127688352005494BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96CA3E027688352005494BB /* Preview Assets.xcassets */; };
 		D96CA3EB27688352005494BB /* phoneVerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3EA27688352005494BB /* phoneVerificationTests.swift */; };
 		D96CA3F527688352005494BB /* phoneVerificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3F427688352005494BB /* phoneVerificationUITests.swift */; };
 		D96CA3F727688352005494BB /* phoneVerificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA3F627688352005494BB /* phoneVerificationUITestsLaunchTests.swift */; };
 		D96CA405276887B7005494BB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = D96CA404276887B7005494BB /* ComposableArchitecture */; };
+		D96CA407276896DC005494BB /* EnterVerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA406276896DC005494BB /* EnterVerificationCodeView.swift */; };
+		D96CA4092768972D005494BB /* UpdatePhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA4082768972D005494BB /* UpdatePhoneNumberView.swift */; };
+		D96CA40B2768B8A3005494BB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D96CA40A2768B8A3005494BB /* Localizable.strings */; };
+		D96CA40D2768C0BF005494BB /* PhoneVerificationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA40C2768C0BF005494BB /* PhoneVerificationClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		D96CA3D627688351005494BB /* phoneVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phoneVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96CA3D927688351005494BB /* phoneVerificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerificationApp.swift; sourceTree = "<group>"; };
-		D96CA3DB27688351005494BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D96CA3DB27688351005494BB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		D96CA3DD27688352005494BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96CA3E027688352005494BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D96CA3E627688352005494BB /* phoneVerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phoneVerificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +49,10 @@
 		D96CA3F027688352005494BB /* phoneVerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phoneVerificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96CA3F427688352005494BB /* phoneVerificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerificationUITests.swift; sourceTree = "<group>"; };
 		D96CA3F627688352005494BB /* phoneVerificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D96CA406276896DC005494BB /* EnterVerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterVerificationCodeView.swift; sourceTree = "<group>"; };
+		D96CA4082768972D005494BB /* UpdatePhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePhoneNumberView.swift; sourceTree = "<group>"; };
+		D96CA40A2768B8A3005494BB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D96CA40C2768C0BF005494BB /* PhoneVerificationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerificationClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				D96CA3D927688351005494BB /* phoneVerificationApp.swift */,
-				D96CA3DB27688351005494BB /* ContentView.swift */,
+				D96CA3DB27688351005494BB /* RootView.swift */,
+				D96CA40C2768C0BF005494BB /* PhoneVerificationClient.swift */,
+				D96CA406276896DC005494BB /* EnterVerificationCodeView.swift */,
+				D96CA4082768972D005494BB /* UpdatePhoneNumberView.swift */,
 				D96CA3DD27688352005494BB /* Assets.xcassets */,
 				D96CA3DF27688352005494BB /* Preview Content */,
+				D96CA40A2768B8A3005494BB /* Localizable.strings */,
 			);
 			path = phoneVerification;
 			sourceTree = "<group>";
@@ -240,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D96CA3E127688352005494BB /* Preview Assets.xcassets in Resources */,
+				D96CA40B2768B8A3005494BB /* Localizable.strings in Resources */,
 				D96CA3DE27688352005494BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D96CA3DC27688351005494BB /* ContentView.swift in Sources */,
+				D96CA40D2768C0BF005494BB /* PhoneVerificationClient.swift in Sources */,
+				D96CA3DC27688351005494BB /* RootView.swift in Sources */,
+				D96CA407276896DC005494BB /* EnterVerificationCodeView.swift in Sources */,
 				D96CA3DA27688351005494BB /* phoneVerificationApp.swift in Sources */,
+				D96CA4092768972D005494BB /* UpdatePhoneNumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

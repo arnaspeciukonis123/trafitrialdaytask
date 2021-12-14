@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  phoneVerification
+
+  Created by Arnas Peciukonis on 2021-12-14.
+  
+*/
+
+"we_will_send_you" = "We will send a verification code to this number";
+"phone_number" = "PHONE NUMBER";
+"update_number" = "Update phone number";
