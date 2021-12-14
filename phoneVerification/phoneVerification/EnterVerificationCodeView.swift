@@ -9,9 +9,7 @@ import SwiftUI
 import ComposableArchitecture
 
 struct VerificationState: Equatable {
-    
     let verificationCode = String()
-    
 }
 
 enum VerificationAction: Equatable {
@@ -38,7 +36,7 @@ let enterVerificationCodeReducer = Reducer<VerificationState , VerificationActio
 
 struct EnterVerificationCodeView: View {
     let store: Store<VerificationState, VerificationAction>
-
+    
     var body: some View {
         WithViewStore(self.store) { viewStore in
             List {

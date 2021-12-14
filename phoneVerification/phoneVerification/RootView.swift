@@ -43,29 +43,29 @@ let mainAppReducer: Reducer<MainAppState, MainAppAction, MainAppEnviroment> = .c
                 phoneVerificationClient: environment.phoneVerificationClient)
         }
     ),
-        .init { state, action, environment in
-            switch action {
-            case .checkPhoneNumber:
-                return .none
-            case .verificationAction:
-                return .none
-            }
+    .init { state, action, environment in
+        switch action {
+        case .checkPhoneNumber:
+            return .none
+        case .verificationAction:
+            return .none
         }
-    )
+    }
+)
+
+struct RootView: View {
+    let UpdatePhoneNumberStore: Store<UpdatePhoneNumberState, UpdatePhoneNumberAction>
     
-    struct RootView: View {
-        let UpdatePhoneNumberStore: Store<UpdatePhoneNumberState, UpdatePhoneNumberAction>
-        
-        var body: some View {
-            NavigationView {
-                NavigationLink(
-                    destination: UpdatePhoneNumberView(store: UpdatePhoneNumberStore)
-                ) {
-                    Text("Click here to start the flow")
-                }
+    var body: some View {
+        NavigationView {
+            NavigationLink(
+                destination: UpdatePhoneNumberView(store: UpdatePhoneNumberStore)
+            ) {
+                Text("Click here to start the flow")
             }
         }
     }
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

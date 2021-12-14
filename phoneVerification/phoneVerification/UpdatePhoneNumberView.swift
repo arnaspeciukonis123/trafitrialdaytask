@@ -29,10 +29,10 @@ let updatePhoneNumberReducer = Reducer<UpdatePhoneNumberState , UpdatePhoneNumbe
     switch action {
     case .buttonPressed:
         if state.phoneNumber.count > Constants.phoneNumberLenght {
-        return environment.phoneVerificationClient
-            .verify(state.phoneNumber)
-            .cancellable(id: VerifyCancelId())
-            .catchToEffect()
+            return environment.phoneVerificationClient
+                .verify(state.phoneNumber)
+                .cancellable(id: VerifyCancelId())
+                .catchToEffect()
         } else {
             return .none
         }
@@ -41,7 +41,7 @@ let updatePhoneNumberReducer = Reducer<UpdatePhoneNumberState , UpdatePhoneNumbe
         state.phoneNumber = phoneNumber
         return .none
     case .phonenumberInvalidtDismissed:
-            state.phonenumberInvalidAlert = nil
+        state.phonenumberInvalidAlert = nil
         return .none
     }
 }.debug()
@@ -67,20 +67,19 @@ struct UpdatePhoneNumberView: View {
                 .navigationBarTitleDisplayMode(.inline)
             }.alert(
                 item: viewStore.binding(
-                  get: { $0.phonenumberInvalidAlert.map(InvalidNumberAlert.init(title:)) },
-                  send: .phonenumberInvalidtDismissed
+                    get: { $0.phonenumberInvalidAlert.map(InvalidNumberAlert.init(title:)) },
+                    send: .phonenumberInvalidtDismissed
                 ),
                 content: { Alert(title: Text($0.title)) }
-              )
+            )
         }
     }
 }
 
-
 //xcode cannot save a new file for whatever reason so I am just leaving this here for now
 struct InvalidNumberAlert: Identifiable {
-  var title: String
-  var id: String { self.title }
+    var title: String
+    var id: String { self.title }
 }
 
 struct Constants {
